@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Score\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=onLeft
+comment1.target=Score(boolean)
+comment1.text=\r\n\ Score\ is\ the\ default\ contructor\ and\ sets\ playerScore\ to\ 0,\ sets\ isLeft\ to\ onLeft\ and\ calls\ on\ the\ displayScore\ methos\r\n\ \r\n\ @param\ boolean\ called\ onLeft\r\n\ @return\ nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ is\ run\ when\ the\ run\ button\ is\ pressed\ and\ it\ calls\ on\ the\ displayScore\ mthod\ if\ scoreChanged\ is\ true\r\n\ \r\n\ @param\ boolean\ called\ isLeft\r\n\ @return\ nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ displayScore()
+comment3.text=\r\n\ displayScore\ \ displays\ the\ score\ if\ is\ left\ is\ true\ or\ else\ it\ it\ will\ display\ a\ different\ score\r\n\ it\ also\ sets\ score\ changed\ to\ false\r\n\ \r\n\ @param\ none\ nothing\ is\ returned\r\n\ @return\ nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ countScore()
+comment4.text=\r\n\ countScore\ increases\ playerScore\ by\ 1\ everytime\ the\ method\ is\ run\ and\ sets\ scoreChanged\ to\ tru\r\n\ \r\n\ @param\ non\ there\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=int\ getScore()
+comment5.text=\r\n\ getScore\ returns\ the\ playerScore\ variable\r\n\ \r\n\ @param\ boolean\ called\ isLeft\r\n\ @return\ an\ integer\ is\ returned\r\n
+numComments=6

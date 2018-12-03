@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ball\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Ball()
+comment1.text=\r\n\ Ball\ is\ the\ default\ constuctor\ for\ the\ ball\ class.\ it\ sets\ the\ color\ of\ the\ ball\ to\ white,\r\n\ creates\ it\ as\ an\ oval,\ and\ makes\ it\ rotate\ by\ a\ ranom\ number\ between\ 0-360\r\n\ \r\n\ @param\ none\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ nothing\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ the\ Act\ method\ asks\ if\ getStarted\ is\ equal\ to\ true.\ if\ it\ is\ true,\ it\ moves\ the\ ball\ by\ velocity,\ and\ calls\ on\ the\ checkCollision\ method\ \r\n\ \r\n\ @param\ none\ there\ are\ no\ parameters\r\n\ @return\ there\ is\ nothing\ that\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\r\n\ checkCollision\ creates\ conditions\ that\ makes\ the\ ball\ reverse\ its\ rotation,\ and\ if\ its\ past\ a\ certain\ point\ it\ will\ add\ a\ pint\ to\ the\ proper\r\n\ scoreboard\r\n\ \r\n\ @param\ none\ there\ are\ no\ parameters\r\n\ @retun\ nothing\ is\ returned\r\n
+comment4.params=v
+comment4.target=void\ setVelocity(int)
+comment4.text=\r\n\ setVelocity\ sets\ the\ value\ of\ velocity\ to\ the\ integer\ v\r\n\ \r\n\ @param\ there\ si\ an\ int\ parameter\ called\ v\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Paddle
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Paddle\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isLeft
+comment1.target=Paddle(boolean)
+comment1.text=\r\n\ Paddle\ is\ the\ default\ contructor\ for\ paddle\ and\ sheck\ sets\ up\ the\ upKey\ and\ downKey\ variable\ .\ \r\n\ it\ also\ creates\ the\ paddle\ shape\ and\ image.\ \r\n\ \r\n\ @param\ boolean\ called\ isLeft\r\n\ @return\ nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ the\ Act\ method\ is\ run\ when\ the\ run\ button\ is\ pressed\ and\ calls\ on\ the\ checkKeyPress\ method\r\n\ \r\n\ @param\ boolean\ called\ isLeft\r\n\ @return\ nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ checkKeyPress()
+comment3.text=\r\n\ checkKeyPress\ checks\ to\ see\ if\ the\ up\ or\ down\ key\ is\ pressed\ and\ increases\ or\ decreases\ Y\ by\ 4\r\n\ \r\n\ @param\ boolean\ called\ isLeft\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=4
